@@ -80,6 +80,5 @@ class Teardroid:
         os.system(zipalign + " -v 4 " + self.name +
                   "_uncompressed.apk " + self.name + ".apk")
 
-    def Clear(self) -> None:
-        os.remove(self.name + ".apk.idsig")
-        os.remove(self.name + "_uncompressed.apk")
+
+
