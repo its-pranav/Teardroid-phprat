@@ -84,7 +84,6 @@ def builder(name: str) -> None:
     Teardroid.CompressAPK()
     Teardroid.print_result("Signing Teardroid")
     Teardroid.SingAPK()
-    Teardroid.Clear()
     Teardroid.print_result("Proccess Completed Successfully")
     Teardroid.print_result(
         "Saved as " + os.path.join(os.getcwd(), name + ".apk"))
